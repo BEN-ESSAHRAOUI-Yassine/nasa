@@ -1,0 +1,9 @@
+{
+  "title": "APOD snapshot pending — run: npm run fetch-data",
+  "date": "—",
+  "explanation": "No live snapshot saved yet. Run \"npm run fetch-data\" with your NASA API key in .env to save a real picture of the day here; the server uses it as an offline fallback.",
+  "url": "https://apod.nasa.gov/apod/image/19/PIA17038Var2.jpg",
+  "hdurl": null,
+  "media_type": "image",
+  "copyright": null
+}

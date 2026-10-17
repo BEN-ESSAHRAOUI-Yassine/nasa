@@ -1,0 +1,14 @@
+{
+  "moon": {
+    "body": "moon",
+    "date": "2026-10-17",
+    "distance_km": 404642,
+    "unit": "km"
+  },
+  "mars": {
+    "body": "mars",
+    "date": "2026-10-17",
+    "distance_km": 231903332,
+    "unit": "km"
+  }
+}

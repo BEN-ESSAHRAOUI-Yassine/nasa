@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Mission Design Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Space Mission Design Game</h1>
+    <p class="tagline">Plan a mission with real NASA data</p>
+  </header>
+
+  <div id="banner" class="banner hidden"></div>
+
+  <main>
+    <!-- 1) Picture of the day -->
+    <section class="card" id="apod-section">
+      <h2>Picture of the day</h2>
+      <div id="apod-content" class="loading">Loading…</div>
+    </section>
+
+    <!-- 2) Mission planner -->
+    <section class="card" id="planner-section">
+      <h2>Mission Planner</h2>
+      <div class="planner-controls">
+        <label>
+          Destination
+          <select id="destination">
+            <option value="moon">Moon</option>
+            <option value="mars">Mars</option>
+          </select>
+        </label>
+        <label>
+          Rocket
+          <select id="rocket"></select>
+        </label>
+        <button id="launch-btn">Launch mission</button>
+      </div>
+      <div id="distance-info" class="muted">Distance: loading…</div>
+      <div id="mission-result" class="hidden"></div>
+    </section>
+
+    <!-- 3) Asteroids -->
+    <section class="card" id="asteroids-section">
+      <h2>Nearby asteroids today</h2>
+      <div id="asteroids-content" class="loading">Loading…</div>
+    </section>
+  </main>
+
+  <footer>Data source: NASA APOD, NeoWs, JPL Horizons</footer>
+
+  <script defer src="app.js"></script>
+</body>
+</html>

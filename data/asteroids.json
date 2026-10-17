@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-17",
+  "count": 11,
+  "asteroids": [
+    {
+      "name": "(2005 VS)",
+      "diameter_m": 212,
+      "miss_distance_km": 15738548,
+      "velocity_kms": 6.69,
+      "hazardous": false
+    },
+    {
+      "name": "(2016 LC9)",
+      "diameter_m": 24,
+      "miss_distance_km": 16990663,
+      "velocity_kms": 3.61,
+      "hazardous": false
+    },
+    {
+      "name": "(2015 HR11)",
+      "diameter_m": 391,
+      "miss_distance_km": 26601231,
+      "velocity_kms": 17.77,
+      "hazardous": true
+    },
+    {
+      "name": "144900 (2004 VG64)",
+      "diameter_m": 1318,
+      "miss_distance_km": 26873815,
+      "velocity_kms": 22.5,
+      "hazardous": true
+    },
+    {
+      "name": "(2018 PZ21)",
+      "diameter_m": 27,
+      "miss_distance_km": 29282896,
+      "velocity_kms": 11.84,
+      "hazardous": false
+    },
+    {
+      "name": "(2008 TC4)",
+      "diameter_m": 278,
+      "miss_distance_km": 45552721,
+      "velocity_kms": 25.01,
+      "hazardous": true
+    },
+    {
+      "name": "614134 (2008 TC4)",
+      "diameter_m": 278,
+      "miss_distance_km": 45552721,
+      "velocity_kms": 25.01,
+      "hazardous": true
+    },
+    {
+      "name": "(2016 TQ54)",
+      "diameter_m": 22,
+      "miss_distance_km": 63040348,
+      "velocity_kms": 21.98,
+      "hazardous": false
+    },
+    {
+      "name": "(2014 JR24)",
+      "diameter_m": 8,
+      "miss_distance_km": 65155068,
+      "velocity_kms": 16.69,
+      "hazardous": false
+    },
+    {
+      "name": "(2017 MA4)",
+      "diameter_m": 1133,
+      "miss_distance_km": 70436910,
+      "velocity_kms": 27.06,
+      "hazardous": false
+    },
+    {
+      "name": "(2002 TH68)",
+      "diameter_m": 269,
+      "miss_distance_km": 73549238,
+      "velocity_kms": 19.39,
+      "hazardous": false
+    }
+  ]
+}

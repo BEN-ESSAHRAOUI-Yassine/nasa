@@ -1,0 +1,15 @@
+{
+  "name": "space-mission-design-game",
+  "version": "1.0.0",
+  "description": "NASA Space Apps demo: mini mission planner using live NASA data",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "fetch-data": "node scripts/fetch-data.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
